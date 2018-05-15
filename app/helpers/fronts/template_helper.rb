@@ -1,0 +1,2 @@
+module Fronts::TemplateHelper
+end

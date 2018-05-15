@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HotelProject</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag 'front', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'front', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render "layouts/layouts_front/header" %>
+    <%= yield %>
+    <%= render "layouts/layouts_front/footer" %>
+
+  </body>
+</html>
